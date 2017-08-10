@@ -1,0 +1,73 @@
+/*
+* @Author: Marte
+* @Date:   2017-08-06 14:04:08
+* @Last Modified by:   Marte
+* @Last Modified time: 2017-08-06 14:54:37
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border:0;
+}
+ol, ul ,li{list-style: none;}
+body {
+    font-family: 宋体;
+    font-size: 12px;
+    height: auto;
+    width: 760px;
+    margin:0 auto;
+    border:1px solid #006633;
+}
+#header {
+    height:100px;
+    width:760px;
+    background-color: #00FFFF;
+    margin:0px 0px 3px 0px;
+}
+#nav {
+    height: 25px;
+    width:760px;
+    font-size:14px;
+    list-style-type: none;
+}
+#nav li{
+    float: left;
+}
+#nav li a{
+    color: #000000;
+    text-decoration: none;
+    padding-top: 4px;
+    display: block;
+    width:97px;
+    height: 22px;
+    text-align: center;
+    background-color:#009966;
+    margin-left: 2px;
+}
+#nav li a:hover{
+    background-color:#006633;
+    color: #FFF;
+}
+#content {
+    height: auto;
+    width: 740px;
+    line-height: 1.5em;
+    padding:10px;
+}
+#content p{
+    text-indent: 2em;
+}
+#content h3{
+    font-size:16px;
+    margin:10px;
+}
+#footer {
+    height: 50px;
+    width: 740px;
+    padding:10px;
+    line-height:2em;
+    text-align:center;
+    background-color:#009966;
+}
